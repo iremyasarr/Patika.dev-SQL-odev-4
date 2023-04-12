@@ -1,8 +1,7 @@
 # Patika.dev-SQL-odev-4
 Patika.dev &amp; FMSS İş Analisti Practicum SQL ödevi
 
-<<code>
-
+<code>
 --ödev sorguları ms sql server üzerinden yazılmıştır.
 
 --1.film tablosunda bulunan replacement_cost sütununda bulunan birbirinden farklı değerleri sıralayınız.
@@ -19,5 +18,4 @@ select count(*) as 'Count' from country where len(country)=5;
 
 --5.city tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
 select count(*) from city where name like '%r' or name like '%R'
-
-</code>>
+</code>
